@@ -216,11 +216,6 @@ nav {
   background-size: cover;
   position: relative;
 }
-@media (min-width: 1024px) {
-  #home {
-    background-attachment: fixed;
-  }
-}
 #home:before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
@@ -253,23 +248,10 @@ nav {
 .logo{
     width: 60%;
 }
-@media (max-width: 768px) {
-  #home h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-}
 #home h2 {
   color: #eee;
   margin-bottom: 50px;
   font-size: 24px;
-}
-@media (max-width: 768px) {
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
 }
 #home .btn {
   font-family: "Poppins", sans-serif;
@@ -298,4 +280,85 @@ nav {
 }
 .picture{
     margin: 0px 150px 0px 150px;
+}
+.principal {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    width: 20%;
+    margin: 0px 50px 0px 50px;  
+}
+
+.principal:hover {
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 92%);
+}
+
+.container {
+  padding: 2px 16px;
+  background: white;
+}
+.container h4{
+    font-size: 20px;
+}
+.col{
+  float: left;
+  align-content: center;
+}
+.about{
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    padding-bottom: 32px;
+}
+
+.img {
+  border-radius: 5px 5px 0 0;
+}
+
+#about h1{
+    margin: 29px 40px 40px 40px;
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 37px;
+    text-transform: uppercase;
+    padding-left: 55px;
+}
+
+.icon img{
+    width: 10%;
+    float: left;
+}
+.icon-email img{
+    width: 15%;
+    float: left;
+}
+.icon-phone img{
+    width: 20%;
+    float: left;
+}
+
+.footer{
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    padding: 30px;
+}
+.footer p{
+    padding: 10px 55px 10px 50px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    font-size: 14px;
+    color: white;
+    font-family: "Poppins", sans-serif;
 }
